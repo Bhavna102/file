@@ -1,0 +1,133 @@
+.link-img{
+    display: flex;
+}
+hr{
+    width: 100%;
+    border: 1px solid white;
+}
+.footer{
+  height: 100%;
+    background-color: rgb(7, 7, 73);
+    color: white;
+}
+.footer-flex{
+    display: flex;
+    justify-content: center;
+    padding: 60px 40px 40px 40px;
+    gap: 40px;
+    font-size: 17px;
+    line-height: 32px;
+}
+.links{
+    width: 500px;
+}
+.gallary-flex{
+    display: flex;
+    gap: 60px;
+    line-height: 35px;
+}
+.footer-cont{
+    width: 400px;
+    line-height: 35px;
+}
+.link-head{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+.link-text{
+    font-size: 20px;
+    font-weight: 700; 
+    padding: 10px ;  
+}
+.link-text span{
+    color: red;
+    padding: 0 5px;
+}
+.gallary-head{
+    font-size: 27px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+.link-img1 img{
+    border: 20px solid white;
+    background-color: white;
+}
+.link-img1{
+    margin: 0 5px;
+}
+.footer-end{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 20px;
+}
+.policy{
+    display: flex;
+    gap: 20px;
+}
+@media only screen and (min-width : 320px) and (max-width:767px) {
+    .footer{
+        height: 100%;
+    }
+   .footer-flex{
+    flex-wrap: wrap;
+   }
+   .links{
+    width: 280px;
+   }
+   .link-img{
+    flex-wrap: wrap;
+   }
+   .gallary{
+    gap: 20px;
+    padding: 0 20px ;
+   }
+   .gallary-head{
+    padding:  20px;
+   }
+   .footer-cont{
+    width: 280px;
+}
+.footer-end{
+    flex-wrap: wrap;
+   gap: 20px;
+}
+.policy{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ }
+
+ @media only screen and (min-width : 768px) and (max-width:1199px) {
+    .footer{
+        height: 100%;
+    }
+   .footer-flex{
+    flex-wrap: wrap;
+    padding: 0 40px;
+   }
+   .links{
+    width: 280px;
+   }
+   .link-img{
+    flex-wrap: wrap;
+   }
+   .gallary{
+    gap: 20px;
+    padding: 0 20px ;
+   }
+   .gallary-head{
+    padding:  20px;
+   }
+   .footer-cont{
+    width: 280px;
+}
+.footer-end{
+    flex-wrap: wrap;
+   gap: 20px;
+}
+.policy{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ }

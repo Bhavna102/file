@@ -1,0 +1,52 @@
+.workers{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding: 80px;
+}
+.worker-img img{
+    width: 500px;
+    height: 650px;
+}
+.worker-pra{
+    padding: 10px 0;
+    color: grey;
+    font-size: 17px;
+}
+.worker-text{
+    width: 600px;
+}
+.worker-check{
+    display: flex;
+    padding: 5px 0;
+}
+.check-head h4{
+    color: rgb(17, 17, 117);
+    font-weight: 700;
+}
+.check i{
+    font-size: 35px;
+    color: red;
+    padding: 5px 16px;
+}
+.check-text{
+    color: grey;
+}
+@media only screen and (min-width : 320px) and (max-width:767px) {
+    .workers{
+        flex-wrap: wrap;
+    }
+    .worker-img img{
+        width: 290px;
+        height: 400px;
+    }
+ }
+ @media only screen and (min-width : 768px) and (max-width:1199px) {
+    .workers{
+        flex-wrap: wrap;
+    }
+    .worker-img img{
+        width: 500px;
+        height: 700px;
+    }
+ }

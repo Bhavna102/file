@@ -1,0 +1,44 @@
+.build{
+    text-align: center;
+    background-color: rgb(9, 9, 112);
+    color: white;
+    padding: 60px  0 20px 0;
+}
+.build-info{
+    font-size: 40px;
+    font-weight: 700;
+    width: 500px;
+    margin: 0 auto;
+}
+.slider-container{
+   width: 100%;
+   overflow: hidden;
+    
+}
+.slick-prev{
+    z-index: 20;
+    color: red;
+    left: 45px;
+}
+.slick-next{
+    z-index: 20;
+    right: 45px;
+}
+.slick-prev:before, .slick-next:before{
+    color: rgb(241, 13, 13);
+    font-size:40px;
+    background-color: rgb(247, 245, 244);
+    border-radius:100px;
+    opacity: 1;
+}
+
+@media only screen and (min-width : 320px) and (max-width:767px) {
+    .build-info{
+        width: 100%;
+        font-size: 20px;
+    }
+    .slick-slide img{
+        width: 280px;
+    }
+}
+

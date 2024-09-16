@@ -1,0 +1,19 @@
+.erop-img img{
+   margin: 0 auto;
+   width: 95%;
+   height: 400px
+}
+.part8{
+    padding: 80px 0 30px 0;
+}
+.slick-slide{
+    width: 1200px;
+}
+
+.slider-container1{
+    width: 70%;
+    margin: 0 auto;
+}
+.slick-slider{
+    overflow: hidden;
+}

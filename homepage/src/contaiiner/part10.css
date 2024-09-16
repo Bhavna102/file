@@ -1,0 +1,31 @@
+.slick-slide img{
+    margin: 0 auto;
+ }
+ .slick-slider1{
+    background-color: red;
+    padding: 0 0 30px 0;
+ }
+ .part10{
+    color: white;
+    text-align: center;
+    padding: 50px;
+ }
+ .part10-info{
+    font-size: 34px;
+    font-weight: 700;
+ }
+ .img-slick img{
+    width: 190px;
+    height: 100px;
+    border:20px solid white;
+ }
+ .part10-text{
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    padding: 10px 0;
+ }
+ .slider-container2{
+   width: 70%;
+   margin: 0 auto;
+ }

@@ -1,0 +1,177 @@
+.about{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 70px;
+}
+.about-img img{
+    width: 700px;
+    height: 600px;
+}
+.about-head{
+    font-size: 20px;
+    color: red;
+}
+.about-info{
+    font-size: 40px;
+    color: rgb(13, 13, 106);
+    font-weight: 700;
+}
+.service{
+    display: flex;
+}
+.service-about{
+    padding: 30px;
+}
+.service-text{
+    text-align: center;
+    color: rgb(20, 20, 134);
+    font-weight: 700;
+    font-size: 18px;
+    padding: 20px 0;
+}
+.prism-text h2{
+    font-size: 35px;
+    color: rgb(12, 12, 96);
+}
+.prism-text{
+    font-size: 18px;
+    color: grey;
+}
+.content{
+    display: flex;
+    padding: 20px 0;
+    gap: 30px;
+}
+.content-box{
+    width:170px;
+    background-color:rgb(7, 15, 101);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 30px 20px;
+}
+.item{
+    font-size: 22px;
+    padding: 6px 0;
+}
+.item i{
+    color: red;
+    font-weight: 800;
+    padding: 0 15px;
+}
+@media only screen and (min-width : 320px) and (max-width:767px) {
+    .about{
+        flex-wrap: wrap;
+        text-align: center;
+        /* padding: 30px; */
+    }
+    .about-img img {
+        height: 400px;
+        width: 280px;
+    }
+    .about-info{
+        font-size: 30px;
+        text-align: center;
+    }
+    .service{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .service-about{
+        padding: 20px;
+    }
+    .prism-text h2 {
+        font-size:25px ;
+    }
+    .content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .slider{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .slider img{
+        width: 236px;
+    }
+ }
+ @media only screen and (min-width : 768px) and (max-width:1199px) {
+    .about{
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 50px;
+    }
+    .about-img img {
+        height: 400px;
+        width: 280px;
+    }
+    .about-info{
+        font-size: 30px;
+        text-align: center;
+    }
+    .service{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .service-about{
+        padding: 20px;
+    }
+    .prism-text h2 {
+        font-size:25px ;
+    }
+    .content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .slider{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+ }
+ @media only screen and (min-width : 1200px) and (max-width:1399px) {
+    .about{
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 20px;
+    }
+    .about-img img {
+        height: 680px;
+        width: 400px;
+    }
+    .about-text{
+        width: 500px;
+    }
+    .about-info{
+        font-size: 30px;
+        text-align: center;
+    }
+    .service{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .service-about{
+        padding: 20px;
+    }
+    .prism-text h2 {
+        font-size:25px ;
+    }
+    .content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .slider{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+ }
+ @media only screen and (min-width :1400px) and (max-width:1800px) {
+    .content{
+        flex-wrap: wrap;
+    }
+    .slider{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+ }

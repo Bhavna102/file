@@ -1,0 +1,100 @@
+.project{
+    padding: 80px 0;
+}
+.project-head{
+    color: red;
+    font-size: 22px;
+    text-align: center;
+}
+.project-info{
+    color: #0f0f80;
+    font-size: 43px;
+    font-weight: 700;
+    text-align: center;
+ width: 600px;
+ margin: 0 auto;
+}
+.grid{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 90px 0;
+}
+.grid-box{
+    height: 350px;
+    width: 280px;
+    background-color: white;
+    box-shadow: 1px 1px 3px 0 rgb(172, 171, 171);
+    text-align: center;
+    position: relative;
+}
+.grid-box:hover{
+    height: 350px;
+    /* background-color: #0f0f807e; */
+    background-image: url('./ss.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.grid-box:hover .grid-text{
+   display: none;
+   z-index: -10;
+   color: white;
+}
+.text{
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 0 30px;
+    position: absolute;
+    bottom: 180px;
+    left: 00px;
+}
+.tex{
+    color: white;
+    font-size: 16px;
+    padding: 0 30px;
+    position: absolute;
+    bottom: 100px;
+    left: 00px;
+   
+}
+.grid-img{
+    position: absolute;
+    top:-50px;
+    left: 70px;
+}
+.grid-img img{
+    border: 12px solid white;
+    box-shadow: 2px 2px 6px ;
+}
+.grid-text{
+    color: #0f0f80;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 0 30px;
+    position: absolute;
+    bottom: 50px;
+    left: 00px;
+}
+.grid-button button{
+    color: white;
+    background-color: red;
+    height: 40px;
+    width: 100px;
+    border: none;
+    position: absolute;
+    bottom: -20px;
+    left: 90px;
+}   
+@media only screen and (min-width : 320px) and (max-width:1199px) {
+    .project-info{
+        width: 100%;
+        font-size: 25px;
+    }
+    .grid{
+        flex-wrap: wrap;
+        gap: 100px;
+    }
+ }

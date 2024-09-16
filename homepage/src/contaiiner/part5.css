@@ -1,0 +1,43 @@
+.discover{
+    display: flex;
+    color: white;
+}
+.discover-box{
+    height: 400px;
+    background-image: url('./indus.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.discover-box2{
+    height: 400px;
+    background-image: url('./indus2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+}
+.discover-box3{
+    height: 400px;
+    background-image: url('./indus3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.discover-text{
+    padding: 0 40px;
+    padding-top: 200px;
+}
+.dis-button button{
+    color: white;
+    background-color: red;
+    border: none;
+    height: 40px;
+    width: 110px;
+    margin: 20px 0;
+}
+@media only screen and (min-width : 320px) and (max-width:1199px) {
+    .discover{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+ }
+ 
